@@ -1,0 +1,24 @@
+Navigate to Settings > Extension > Python and find Auto Complete: Extra Paths .
+Click the link to open the settings.json file and edit it
+
+
+Here is an example of a settings.json configuration for Python to ensure autocompletion and function argument hints work:
+
+
+
+
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.parameterHints.enabled": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
+}

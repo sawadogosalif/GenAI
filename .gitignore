@@ -1,0 +1,8 @@
+# Ignore virtual environment directories
+openai-env/
+.venv
+*/*.env
+venv/
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
